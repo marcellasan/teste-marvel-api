@@ -1,14 +1,17 @@
-<H1>Marvel API</H1>
+![capa](https://user-images.githubusercontent.com/102002212/179225344-4bea210b-6779-4bd9-b3e0-04ebbdedca8b.png)
 
-<H3>🔖 Requisitos funcionais</H3>
+<H2>🔖 Requisitos funcionais</H2>
 
-<H4>Cadastro de Personagens</H4>
-<ul>
- <li>Deve poder cadastrar um personagem com as características conforme tabela abaixo:</li>
- <li>Deve retornar o id do personagem ao realizar o cadastro</li>
- <li>Não deve cadastrar personagem com nome duplicado</li>
- <li>Com exceção da idade, todos os campos são obrigatórios</li>
- </ul>
+<H4>📥 Cadastro de Personagens</H4>
+
+- [X] Deve poder cadastrar um personagem com as características conforme tabela abaixo:
+  - Com requisição que testa o cadastro via StatusCode e Id
+- [X] Deve retornar o id do personagem ao realizar o cadastro
+  - Retorna o valor do Id e valida sua veracidade
+- [X] Não deve cadastrar personagem com nome duplicado
+  - Com função que retorna 400 e resposta de erro **(Duplicate Character)**
+- [X] Com exceção da idade, todos os campos são obrigatórios
+ 
  <table>
  
  <tr>
@@ -49,21 +52,38 @@
   </tr>  
  </table>
 
-<H3>Busca de Personagens</H3>
-<ul>
- <li>Deve retornar uma lista de personagens cadastrados</li>
- <li>Deve poder buscar por personagem por nome</li>
- <li>Deve poder buscar personagem pelo id</li>
- <li>Deve retornar 404 ao buscar por id não cadastrado</li>
-</ul>
+<H4>🔎 Busca de Personagens</H4>
 
-<H3>Remover Personagem</H3>
-<ul>
- <li>Deve poder remover por id, um personagem cadastrado</li>
- <li>Deve retornar não encontrado ao remover por id não cadastrado</li>
-</ul>
+- [X] Deve retornar uma lista de personagens cadastrados
+- [X] Deve poder buscar personagem por nome
+  - Implementação de **Query String** na requisição HTTP GET
+- [X] Deve poder buscar personagem pelo id
+  - Implementação de busca vai identificador   
+- [X] Deve retornar 404 ao buscar por id não cadastrado
+  - Criação de função no objetivo de validar ID não cadastrado, usando dados via **MongoDB**  
 
-<H3>🚀 Tecnologias</H3>
+
+<H4>📤 Remover Personagem</H4>
+
+- [X] Deve poder remover por id, um personagem cadastrado
+- [X] Deve retornar não encontrado ao remover por id não cadastrado
+
+<h2>📷 Screenshots </h2>
+
+<h3> Teste Cadastro </h3>
+
+![postspec](https://user-images.githubusercontent.com/102002212/179259254-fb0c7d46-f302-4178-82ac-21ceb778ff7b.png)
+
+
+<h3> Teste Busca </h3
+
+![getspec](https://user-images.githubusercontent.com/102002212/179258831-bda62112-b458-471b-8b92-e79e5578a9b1.png)
+
+<h3> Teste Remoção </h3
+  
+![delete spec](https://user-images.githubusercontent.com/102002212/179262932-6b475ff2-0cc1-4889-8bc8-0501d8bd5b86.png)
+
+  <H2>🚀 Tecnologias</H2>
 <ul>
  <li>[Node.js] - plataforma de desenvolvimento</li>
  <li>[Express] - framework onde a API foi construída</li>
@@ -71,12 +91,12 @@
  <li>[MongoDB] - Banco de dados (Não relacional)</li>
 </ul>
 
-<H3>👨🏻‍💻 Como executar o projeto</H3>
+<H2>👨🏻‍💻 Como executar o projeto</H2>
 <a href="https://nodejs.org/en/">Node.js</a> v16 ou superior para executar.
 
 Execute os comandos abaixo para instalar das dependências do projeto e execução dos testes:
 <div class="highlight highlight-source-shell notranslate position-relative overflow-auto" data-snippet-clipboard-copy-content="cd vdt-season1-marvel-api
 npm i
-npx cypress run"><pre><span class="pl-c1">cd</span> vdt-season1-marvel-api
+npx cypress run"><pre><span class="pl-c1">cd</span> teste-marvel-api
 npm i
 npx cypress run</pre></div>
