@@ -1,4 +1,4 @@
-<H1>Marvel API</H1>
+![capa](https://user-images.githubusercontent.com/102002212/179225344-4bea210b-6779-4bd9-b3e0-04ebbdedca8b.png)
 
 <H3>🔖 Requisitos funcionais</H3>
 
