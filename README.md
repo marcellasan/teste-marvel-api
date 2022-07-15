@@ -70,7 +70,16 @@
 
 <h2>📷 Screenshots </h2>
 
-<H2>🚀 Tecnologias</H2>
+<h3> Teste Cadastro </h3>
+
+![postspec](https://user-images.githubusercontent.com/102002212/179259254-fb0c7d46-f302-4178-82ac-21ceb778ff7b.png)
+
+
+<h3> Teste Busca </h3
+
+![getspec](https://user-images.githubusercontent.com/102002212/179258831-bda62112-b458-471b-8b92-e79e5578a9b1.png)
+
+  <H2>🚀 Tecnologias</H2>
 <ul>
  <li>[Node.js] - plataforma de desenvolvimento</li>
  <li>[Express] - framework onde a API foi construída</li>
