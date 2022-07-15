@@ -55,9 +55,12 @@
 <H4>🔎 Busca de Personagens</H4>
 
 - [X] Deve retornar uma lista de personagens cadastrados
-- [X] Deve poder buscar por personagem por nome
+- [X] Deve poder buscar personagem por nome
+  - Implementação de **Query String** na requisição HTTP GET
 - [X] Deve poder buscar personagem pelo id
+  - Implementação de busca vai identificador   
 - [X] Deve retornar 404 ao buscar por id não cadastrado
+  - Criação de função no objetivo de validar ID não cadastrado, usando dados via **MongoDB**  
 
 
 <H4>📤 Remover Personagem</H4>
