@@ -79,6 +79,10 @@
 
 ![getspec](https://user-images.githubusercontent.com/102002212/179258831-bda62112-b458-471b-8b92-e79e5578a9b1.png)
 
+<h3> Teste Remoção </h3
+  
+![delete spec](https://user-images.githubusercontent.com/102002212/179262932-6b475ff2-0cc1-4889-8bc8-0501d8bd5b86.png)
+
   <H2>🚀 Tecnologias</H2>
 <ul>
  <li>[Node.js] - plataforma de desenvolvimento</li>
