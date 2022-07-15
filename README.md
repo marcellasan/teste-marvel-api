@@ -65,6 +65,8 @@
 - [X] Deve poder remover por id, um personagem cadastrado
 - [X] Deve retornar não encontrado ao remover por id não cadastrado
 
+<h2>📷 Screenshots </h2>
+
 <H2>🚀 Tecnologias</H2>
 <ul>
  <li>[Node.js] - plataforma de desenvolvimento</li>
