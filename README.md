@@ -77,6 +77,6 @@
 Execute os comandos abaixo para instalar das dependências do projeto e execução dos testes:
 <div class="highlight highlight-source-shell notranslate position-relative overflow-auto" data-snippet-clipboard-copy-content="cd vdt-season1-marvel-api
 npm i
-npx cypress run"><pre><span class="pl-c1">cd</span> vdt-season1-marvel-api
+npx cypress run"><pre><span class="pl-c1">cd</span> teste-marvel-api
 npm i
 npx cypress run</pre></div>
